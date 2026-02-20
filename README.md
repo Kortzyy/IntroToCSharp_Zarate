@@ -20,7 +20,7 @@ The objective of this system is to:
 * Calculate total and average fuel consumption
 * Determine fuel efficiency rating
 * Compare total fuel expenses against the weekly budget
-* Generate a formatted audit report
+* Generate an audit report
 
 # Technical Requirements Implemented
 This application demonstrates the following C# concepts:
