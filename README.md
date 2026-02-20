@@ -1,5 +1,10 @@
 # IntroToCSharp_Zarate
+
 **Prelim Activity 01 : Codac Logistics Delivery &amp; Fuel Auditor**
+
+**Kurt Russel B. Zarate**
+
+**BSIT - 3.2**
 
 # Task Description
 This project is a console-based C# application developed for **Codac Logistics** to monitor the daily fuel expenses and delivery performance of a single vehicle over a 5-day work week.
@@ -62,10 +67,25 @@ It then determines whether the driver stayed within budget using a boolean condi
 # Project Structure
 **CodacLogistics.Delivery&FuelAuditor**
 
-`Program.cs` // Handles user interaction and output
+* `Program.cs` // Handles user interaction and output
+* `Models` 
+    * `DriverProfile.cs` // Store Driver data
+* `Services`
+    * `FuelService.cs` // Handles calculation and Logic
 
-    |_
-`Models` 
-  `DriverProfile.cs` // Store Driver data
-`Services`
-  `FuelService.cs` // Handles calculation and Logic
+The project follows the **Separation of Concerns principle**, separating data storage, business logic, and user interaction into different classes for improved maintainability and scalability.
+
+# How to Run
+1. Open the solution file (CodacLogistics.Delivery&FuelAuditor.slnx) in Visual Studio.
+2. Build the solution (Ctrl + Shift + B).
+3. Run the program (Ctrl + F5).
+
+# Learning Outcomes
+This project demonstrates:
+
+* Proper use of primitive data types in C#
+* Loop-based input validation
+* Array processing techniques
+* Financial computation using decimal
+* Clean code organization using object-oriented principles
+* Structured console
